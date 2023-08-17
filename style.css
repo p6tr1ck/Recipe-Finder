@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Poppins:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-height: 100%;
+}
+
+.container img {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.container-items h1 {
+    font-size: 7rem;
+    color: #222;
+    text-align: center;
+}
+
+.search-recipe {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.search {
+    width: 65%;
+    padding: 1em 1em;
+    font-size: 100%;
+    margin: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.search-recipe button {
+    position: relative;
+    width: 5%;
+    background-color: rgb(192, 197, 227);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: ease-out 500ms
+}
+
+.search-recipe button:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.main-container {
+    margin-top: 8rem;
+    width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0 5.5rem;
+    justify-content: space-around;
+}
+
+.hero-card {
+    max-width: 25%;
+    min-width: 25%;
+    height: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-card img {
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.time-calories {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.ingredients {
+    margin: 2rem 0;
+}
+
+.directions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(206, 73, 73);
+    margin-top: 1.3rem;
+    height: auto;
+}
+
+.directions a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
